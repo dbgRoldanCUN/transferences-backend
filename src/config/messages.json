@@ -1,0 +1,82 @@
+{
+  "user":{
+    "sign": {
+      "name": "%s %s",
+      "message": "Usuario agregado al sistema de homologaciones, modifique su contraseña en el sistema, teninedo en cuenta como usuario y contraseña el mismo dato."
+      },
+      "login": {
+        "name" : "%s %s",
+        "message": "Ha habido un ingreso a tu cuenta de homologaciones CUN."
+      },
+      "update": {
+          "name": "%s %s",
+          "message": "Tu cuenta de homologaciones CUN ha sido actualizada."
+      },
+      "transf_created": {
+        "name": "%s %s",
+        "message": "Su proceso de solicictud de transferencia ha sido iniciado, ingrese su sabana de notas actual para iniciar el proceso de analisis de la misma."
+      },
+      "transf_update": {
+        "name": "%s %s",
+        "message": "Su proceso de transferencia ha sido actualizado, proximamente nos cominucaremos para continuar con el proceso."
+      }
+  },
+  "admin": {
+    "sign_user": {
+        "name": "%s %s",
+        "message": "Nuevo Usuario registrado en el sistema de homologaciones con los datos:\n{}\n"
+       },
+       "sign": {
+         "name": "%s %s",
+         "message": "Administrador agregado al sistema de homologaciones, modifique su contraseña en el sistema, teninedo en cuenta como usuario y contraseña su numero de identificacion."
+        },
+       "transf_created": {
+         "name": "%s %s",
+         "message": "El usuario identificado con el numero {} ha creado una proceso de trasnferencia, se le ha asignado dicho proceso"
+       },
+       "login": {
+         "name" : "%s %s",
+         "message": "Ha habido un ingreso a tu cuenta de homologaciones CUN."
+       },
+       "update": {
+           "name": "%s %s",
+           "message": "Tu cuenta de homologaciones CUN ha sido actualizada."
+       },
+       "transf_update": {
+         "name": "%s %s",
+         "message": "El usuario identificado con {} ha añadido informaicion al proceso de transferencia.\n"
+       }
+  },
+  "managers":{
+    "servicio_estudiante": {
+      "cargo": "Servicio al estudiante",
+      "cod_secc": "10",
+      "cod_sede": "00000"
+    },
+    "registro_control": {
+      "cargo": "Registro y Control",
+      "cod_secc": "20",
+      "cod_sede": "00000"
+    },
+    "auxiliar_registro":  {
+      "cargo": "Auxiliar de Registro y Control",
+      "cod_secc": "30",
+      "cod_sede": "00000"
+    },
+    "analista_registro":  {
+      "cargo": "Analista de Registro y Control",
+      "cod_secc": "40",
+      "cod_sede": "00000"
+    },
+    "direccion_programa":  {
+      "cargo": "Direccion de Programa",
+      "cod_secc": "50",
+      "cod_sede": "00000"
+    },
+    "coord_academico": {
+      "cargo": "Coordinacion Academica",
+      "cod_secc": "60",
+      "cod_sede": "00000"
+    }
+  }
+}
