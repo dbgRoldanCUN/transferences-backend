@@ -51,3 +51,5 @@ def cons_admin_blueprint(secret, email_sender):
             requestJson = request.get_json(force = True)
             code, msg = admin_control.assignAdmin(requestJson)
             return { 'code': code, 'message': msg }
+
+    return admin_bp
