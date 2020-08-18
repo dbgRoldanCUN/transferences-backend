@@ -11,7 +11,7 @@ from src.subject.subject_routes import cons_subj_blueprint
 #from homologation.homologation_routes import cons_hmlog_blueprint
 from src.config.settings import getConfig
 from werkzeug.security import generate_password_hash
-from utils.notification_service import EmailSender
+from src.utils.notification_service import EmailSender
 
 port = getConfig().get('port_http')
 host = getConfig().get('host')

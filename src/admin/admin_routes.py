@@ -2,8 +2,8 @@
 import os
 from flask import Blueprint, request, make_response
 from werkzeug.utils import secure_filename
-from admin.admin_service import AdminService
-from config.settings import getConfig
+from src.admin.admin_service import AdminService
+from src.config.settings import getConfig
 
 def cons_admin_blueprint(secret, email_sender):
     admin_bp = Blueprint('admin_bp', __name__)

@@ -1,13 +1,13 @@
 import os
 from flask_mail import Mail, Message
 from flask import Flask, render_template
-from config.settings import getConfig
+from src.config.settings import getConfig
 conf = getConfig().get('mail_config')
 
 class EmailSender:
     def __init__(self, app: Flask):
         app.config['MAIL_SERVER']   = conf.get('server')
-        app.config['MAIL_PORT']     = conf.get('port')
+        app.config['MAIL_PORT']     = int(conf.get('port'))
         app.config['MAIL_USERNAME'] = conf.get('username')
         app.config['MAIL_PASSWORD'] = conf.get('password')
         app.config['MAIL_USE_TLS']  = False

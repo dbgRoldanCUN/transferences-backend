@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import datetime
 import cx_Oracle
-from db.orcl_connection import Connection
-from utils.filter_generators import generateSQLFilter
+from src.db.orcl_connection import Connection
+from src.utils.filter_generators import generateSQLFilter
 
 
 class DataController:

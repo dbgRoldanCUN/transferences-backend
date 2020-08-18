@@ -2,8 +2,8 @@ import os
 from dotenv import load_dotenv
 from pathlib import Path
 
-env_path = Path('.') / '.env'
-load_dotenv()
+env_path = Path('/var/www/transferences') / '.env'
+load_dotenv(dotenv_path=env_path)
 
 _config = {
     'db_config':{
@@ -15,7 +15,7 @@ _config = {
     },
     'mail_config': {
         'server': os.getenv("MAIL_SERVER"),
-        'port': int(os.getenv("MAIL_PORT")),
+        'port': os.getenv("MAIL_PORT"),
         'username': os.getenv("MAIL_USERNAME"),
         'password': os.getenv("MAIL_PASSWORD"),
         'mail_use_tsl': os.getenv("MAIL_USE_TSL"),
@@ -30,3 +30,4 @@ _config = {
 
 def getConfig():
     return _config
+

@@ -2,8 +2,8 @@
 import os
 from flask import Blueprint, request, make_response
 from werkzeug.utils import secure_filename
-from user.user_service import UserService
-from config.settings import getConfig
+from src.user.user_service import UserService
+from src.config.settings import getConfig
 
 def cons_user_blueprint(secret, email_sender):
     user_bp = Blueprint('user_bp', __name__)

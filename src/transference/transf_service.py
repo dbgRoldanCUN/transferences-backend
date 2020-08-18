@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 import datetime
 import json
-from db.data_controller import DataController
-from transference.assignement_controller import AssignementController
-from config.settings import getConfig
-from utils.format_objects import getObjById, buildMsgEmail, formatObjToDict
+from src.db.data_controller import DataController
+from src.transference.assignement_controller import AssignementController
+from src.config.settings import getConfig
+from src.utils.format_objects import getObjById, buildMsgEmail, formatObjToDict
 
 transf_control = None
 user_control = None

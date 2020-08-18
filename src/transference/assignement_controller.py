@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import datetime
-from db.data_controller import DataController
-from utils.format_objects import formatObjToDict, getObjById
+from src.db.data_controller import DataController
+from src.utils.format_objects import formatObjToDict, getObjById
 
 manager_control = None
 admin_control = None

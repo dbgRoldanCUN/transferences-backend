@@ -2,10 +2,10 @@
 import json
 from PIL import Image
 from werkzeug.security import generate_password_hash, check_password_hash
-from db.data_controller import DataController
-from transference.assignement_controller import AssignementController
-from utils.format_objects import getObjById, buildMsgEmail, removeEmptyData
-from config.settings import getConfig
+from src.db.data_controller import DataController
+from src.transference.assignement_controller import AssignementController
+from src.utils.format_objects import getObjById, buildMsgEmail, removeEmptyData
+from src.config.settings import getConfig
 user_control = None
 
 MAIL_MESSAGES = getConfig().get('mail_messages')

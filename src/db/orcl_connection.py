@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import cx_Oracle
-from config.settings import getConfig
+from src.config.settings import getConfig
 
 connection = None
 db_config = getConfig().get('db_config')

@@ -2,7 +2,7 @@
   "user":{
     "sign": {
       "name": "%s %s",
-      "message": "Usuario agregado al sistema de homologaciones, modifique su contraseña en el sistema, teninedo en cuenta como usuario y contraseña el mismo dato."
+      "message": "Usuario agregado al sistema de homologaciones, modifique su contrasena en el sistema, teninedo en cuenta como usuario y contrasena el mismo dato."
       },
       "login": {
         "name" : "%s %s",
@@ -28,7 +28,7 @@
        },
        "sign": {
          "name": "%s %s",
-         "message": "Administrador agregado al sistema de homologaciones, modifique su contraseña en el sistema, teninedo en cuenta como usuario y contraseña su numero de identificacion."
+         "message": "Administrador agregado al sistema de homologaciones, modifique su contrasena en el sistema, teninedo en cuenta como usuario y contrasena su numero de identificacion."
         },
        "transf_created": {
          "name": "%s %s",
@@ -44,7 +44,7 @@
        },
        "transf_update": {
          "name": "%s %s",
-         "message": "El usuario identificado con {} ha añadido informaicion al proceso de transferencia.\n"
+         "message": "El usuario identificado con {} ha anadido informaicion al proceso de transferencia.\n"
        }
   },
   "managers":{

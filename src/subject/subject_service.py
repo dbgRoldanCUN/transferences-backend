@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from db.data_controller import DataController
-from utils.format_objects import getObjById, formatObjToDict
+from src.db.data_controller import DataController
+from src.utils.format_objects import getObjById, formatObjToDict
 subject_control = None
 
 class SubjectService():

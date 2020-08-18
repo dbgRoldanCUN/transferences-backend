@@ -4,9 +4,9 @@ import io
 import base64
 from PIL import Image
 from werkzeug.security import generate_password_hash, check_password_hash
-from db.data_controller import DataController
-from config.settings import getConfig
-from utils.format_objects import getObjById, buildMsgEmail, removeEmptyData
+from src.db.data_controller import DataController
+from src.config.settings import getConfig
+from src.utils.format_objects import getObjById, buildMsgEmail, removeEmptyData
 
 
 admin_control = None

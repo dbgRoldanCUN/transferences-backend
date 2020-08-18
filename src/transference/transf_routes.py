@@ -3,8 +3,8 @@ import os
 import uuid
 from flask import Blueprint, request, jsonify, make_response
 from werkzeug.utils import secure_filename
-from transference.transf_service import TransferenceService
-from config.settings import getConfig
+from src.transference.transf_service import TransferenceService
+from src.config.settings import getConfig
 
 def cons_transf_blueprint(secret, email_sender):
     transf_bp = Blueprint('transf_bp', __name__)

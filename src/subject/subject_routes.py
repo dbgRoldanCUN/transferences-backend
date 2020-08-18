@@ -1,6 +1,6 @@
 import uuid
 from flask import Blueprint, request, make_response, jsonify
-from subject.subject_service import SubjectService
+from src.subject.subject_service import SubjectService
 
 def cons_subj_blueprint(secret):
     subj_bp = Blueprint('subj_bp', __name__)
